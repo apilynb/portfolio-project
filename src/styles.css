@@ -1,0 +1,63 @@
+:root {
+  --hero-background: #f9f7fe;
+  --paragraph-font: 'Poppins', sans-serif;
+  --button-hover: #a799c9;
+}
+
+.logo {
+  display: block;
+  width: 60px;
+
+}
+
+.navbar {
+  position: absolute;
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: 'Poppins', sans-serif;
+  ;
+  font-weight: 400px;
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+.hero {
+  background-color: var(--hero-background);
+  text-align: center;
+  padding: 160px 0;
+  height: 900px;
+}
+
+.hero a {
+  color: white;
+  background-color: #6c63ff;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 18px 30px;
+}
+
+.hero a:hover {
+  background-color: var(--button-hover);
+}
