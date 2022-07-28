@@ -1,8 +1,10 @@
 :root {
+  --branding-color: #6c63ff;
   --hero-background: #f9f7fe;
-  --paragraph-font: 'Poppins', sans-serif;
   --button-hover: #a799c9;
+  --p-color: #272142;
 }
+
 
 .logo {
   display: block;
@@ -10,9 +12,17 @@
 
 }
 
+p {
+  font-family: 'Poppins', sans-serif;
+  color: var(--p-color);
+}
+
 .navbar {
   position: absolute;
   margin-top: 0;
+  width: 100%;
+  background-color: var(--hero-background) !important;
+
 }
 
 h1,
@@ -37,7 +47,6 @@ h6 {
 
 .hero h2 {
   font-family: 'Poppins', sans-serif;
-  ;
   font-weight: 400px;
   font-size: 24px;
   margin-top: 24px;
@@ -46,13 +55,13 @@ h6 {
 .hero {
   background-color: var(--hero-background);
   text-align: center;
-  padding: 160px 0;
-  height: 900px;
+  padding: 100px 40px;
+  height: 750px;
 }
 
 .hero a {
   color: white;
-  background-color: #6c63ff;
+  background-color: var(--branding-color);
   font-size: 18px;
   border-radius: 4px;
   padding: 18px 30px;
@@ -60,4 +69,57 @@ h6 {
 
 .hero a:hover {
   background-color: var(--button-hover);
+}
+
+.in-between {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.sections .word-section {
+  padding: 90px 40px;
+}
+
+.word-section p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.sections h2 {
+  font-size: 64px;
+
+}
+
+.sections .view-more-btns {
+  color: var(--branding-color);
+  border: 1px solid #6c63ff;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 18px 30px;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .hero {
+    height: 500px;
+  }
+
+  .sections .word-section {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .sections h2 {
+    font-size: 45px;
+  }
+
+  .in-between {
+    margin: 65px 20px 0;
+    padding: 0 10px 20px;
+  }
 }
