@@ -65,10 +65,12 @@ h6 {
   font-size: 18px;
   border-radius: 4px;
   padding: 18px 30px;
+  transition: all 150ms ease-in-out;
 }
 
 .hero a:hover {
   background-color: var(--button-hover);
+  color: white;
 }
 
 .in-between {
@@ -97,6 +99,12 @@ h6 {
   border-radius: 4px;
   padding: 18px 30px;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.sections .view-more-btns:hover {
+  background-color: #6c63ff;
+  color: white;
 }
 
 .footer {
@@ -120,7 +128,12 @@ h6 {
   text-align: center;
   display: block;
   max-width: 200px;
- margin: 0 auto;
+  margin: 0 auto;
+  transition: all 150ms ease-in-out;
+}
+
+.footer a:hover {
+  background-color: #a799c9;
 }
 
 .footer-link {
