@@ -5,6 +5,10 @@
   --p-color: #272142;
 }
 
+.main-body {
+  margin-left: 70px !important;
+  margin-right: 70px !important;
+}
 
 .logo {
   display: block;
@@ -18,7 +22,7 @@ p {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   margin-top: 0;
   width: 100%;
   background-color: var(--hero-background) !important;
@@ -186,7 +190,7 @@ text-align: center;
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .hero h1 {
     font-size: 44px;
   }
@@ -208,6 +212,7 @@ text-align: center;
 
   .sections h2 {
     font-size: 45px;
+    text-align: center;
   }
 
   .in-between {
@@ -216,7 +221,7 @@ text-align: center;
   } 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 .footer-link {
   margin: 10px 0 50px 0;
 }
