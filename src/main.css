@@ -54,7 +54,8 @@ h6 {
 
 .word-section .based {
 font-size: 18px;
-font-weight: 700px;
+font-weight: 700;
+font-family: 'Poppins',sans-serif;;
 }
 
 .word-section .description {
@@ -152,6 +153,14 @@ font-weight: 700px;
   font-size: 64px;
 }
 
+@media (max-width: 992px) {
+  .footer-link {
+    margin: 100px 0 90px 0;
+  }
+  .main-section {
+    text-align: center;
+  }
+}
 
 @media (max-width: 768px) {
   .footer-link {
@@ -161,4 +170,19 @@ font-weight: 700px;
   .footer .heading {
     font-size: 40px;
   }
+
+}
+@media (max-width: 500px) {
+.main-section {
+  padding: 0;
+  margin: 0 auto !important;
+}
+
+  .main-section .heading {
+    font-size: 47px;
+  }
+  .footer {
+    margin-top: 0 !important;
+  }
+  
 }

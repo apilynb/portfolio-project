@@ -189,8 +189,13 @@ text-align: center;
   padding: 10px;
 }
 
+@media (max-width: 992px) {
+  .footer-link {
+    margin: 100px 0 90px 0;
+  }
+}
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .hero h1 {
     font-size: 44px;
   }
@@ -221,7 +226,7 @@ text-align: center;
   } 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
 .footer-link {
   margin: 10px 0 50px 0;
 }
