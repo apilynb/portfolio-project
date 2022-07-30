@@ -162,15 +162,16 @@ h6 {
   font-size: 24px;
   text-decoration: none;
   color: black;
-  
+
 }
+
 .email-div {
   text-align: center;
   font-weight: 500;
 }
 
 .icons {
-text-align: center;
+  text-align: center;
 }
 
 .icons {
@@ -196,21 +197,36 @@ text-align: center;
   }
 }
 
+@media (max-width: 768px) {
+  .footer-link {
+    margin: 20px 0 50px 0;
+  }
+}
+
 @media (max-width: 500px) {
+  .main-body {
+    margin: 0 !important;
+  }
+
+
   .hero h1 {
     font-size: 44px;
   }
+
   .hero h2 {
     font-size: 18px;
   }
+
   .hero p {
     font-size: 28px;
   }
+
   .hero {
     height: 500px;
   }
 
   .sections .word-section {
+
     margin: 0;
     padding: 20px 0;
     text-align: center;
@@ -221,18 +237,22 @@ text-align: center;
     text-align: center;
   }
 
+  .word-section p {
+    line-height: 1.7;
+  }
+
   .in-between {
     margin: 65px 20px 0;
     padding: 0 10px 20px;
-  } 
-}
+  }
 
-@media (max-width: 500px) {
-.footer-link {
-  margin: 10px 0 50px 0;
-}
-.footer .heading {
-  font-size: 40px;
-}
+  .footer-link {
+    margin: 10px 0 50px 0;
+  }
+
+  .footer .heading {
+    font-size: 40px;
+  }
+
 
 }
