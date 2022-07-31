@@ -156,6 +156,23 @@ h6 {
   font-size: 64px;
 }
 
+.contact {
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 36px;
+}
+
+.contact p a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contact p a:hover {
+  color: #6c63ff;
+}
+
 .projects h1 {
   margin-left: 50px;
 }
@@ -171,6 +188,7 @@ h6 {
 .projects img {
   border-radius: 10px;
 }
+
 
 @media (max-width: 992px) {
   .footer-link {
