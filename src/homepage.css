@@ -46,7 +46,7 @@ h6 {
 .hero p {
   font-size: 36px;
   font-weight: bold;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 0;
 }
 
@@ -61,7 +61,7 @@ h6 {
   background-color: var(--hero-background);
   text-align: center;
   padding: 100px 40px;
-  height: 750px;
+  height: 950px;
 }
 
 .hero a {
