@@ -156,6 +156,22 @@ h6 {
   font-size: 64px;
 }
 
+.projects h1 {
+  margin-left: 50px;
+}
+
+.projects h3 {
+  margin-top: 15px;
+}
+
+.projects p {
+  margin-top: 10px;
+}
+
+.projects img {
+  border-radius: 10px;
+}
+
 @media (max-width: 992px) {
   .footer-link {
     margin: 100px 0 90px 0;
@@ -202,6 +218,6 @@ h6 {
   }
 
   .footer .heading {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
