@@ -1,8 +1,11 @@
 :root {
-  --branding-color: #6c63ff;
-  --hero-background: #f9f7fe;
-  --button-hover: #a799c9;
+  --branding-color: #1f4e5f;
+  --hero-background: #aacfd0;
+  --button-hover: #4aa9af;
   --p-color: #272142;
+}
+body {
+  background-color:  #f4f7f7;
 }
 
 .logo {
@@ -26,7 +29,7 @@ h6 {
 }
 
 .navbar {
-  background-color: white !important;
+  background-color: #f4f7f7 !important;
 }
 
 .home-nav-bar {
@@ -42,7 +45,7 @@ h6 {
 }
 
 .nav-link.active {
-  color: #6c63ff !important;
+  color:var(--branding-color) !important;
 }
 
 .nav-link:hover {
@@ -81,31 +84,18 @@ h6 {
   border-radius: 4px;
   padding: 18px 30px;
   transition: all 150ms ease-in-out;
+  border-color: transparent;
 }
 
 .hero a:hover {
   background-color: var(--button-hover);
-  color: white;
+  color: var(--branding-color);
+  font-weight: 500;
 }
 
 .in-between {
   margin-top: 120px;
   margin-bottom: 80px;
-}
-
-.view-more-btn {
-  color: white;
-  background-color: var(--branding-color);
-  font-size: 18px;
-  border-radius: 4px;
-  padding: 18px 30px;
-  transition: all 150ms ease-in-out;
-  text-decoration: none;
-}
-
-.view-more-btn:hover {
-  background-color: var(--button-hover);
-  color: white;
 }
 
 .view-btn-div {
@@ -126,9 +116,9 @@ h6 {
 
 }
 
-.sections .view-more-btns {
+.view-more-btns {
   color: var(--branding-color);
-  border: 1px solid #6c63ff;
+  border: 1px solid var(--branding-color);
   font-size: 18px;
   border-radius: 4px;
   padding: 18px 30px;
@@ -136,8 +126,9 @@ h6 {
   transition: all 200ms ease-in-out;
 }
 
-.sections .view-more-btns:hover {
-  background-color: #6c63ff;
+.view-more-btns:hover {
+  background-color: var(--button-hover);
+  border-color: transparent;
   color: white;
 }
 
@@ -166,16 +157,17 @@ h6 {
   padding-top: 50px;
 }
 
+
 .footer {
   text-align: center;
   background-color: var(--hero-background);
   border-radius: 20px;
   margin-top: 100px !important;
-  margin: 0 140px 40px 140px;
+  margin: 0 auto;
 }
 
 .footer p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .footer a {
@@ -193,25 +185,25 @@ h6 {
 }
 
 .footer a:hover {
-  background-color: #a799c9;
+  background-color: var(--button-hover);
 }
 
 .footer-link {
   text-align: center;
-  margin: 50px 0 50px 0;
+  margin: 30px 0 30px 0;
   display: flex;
   justify-content: center;
 }
 
 .footer .heading {
-  font-size: 48px;
+  font-size: 36px;
   font-family: 'Playfair Display', serif;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 
 .main-footer {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .email {
@@ -272,7 +264,7 @@ h6 {
 }
 
 .contact p a:hover {
-  color: #6c63ff;
+  color: var(--branding-color);
 }
 
 .projects h1 {
@@ -292,21 +284,9 @@ h6 {
   border-radius: 10px;
 }
 
-.email {
-  font-size: 24px;
-  text-decoration: none;
-  color: black;
-
-}
-
-.email-div {
-  text-align: center;
-  font-weight: 500;
-}
-
 @media (max-width: 992px) {
   .footer-link {
-    margin: 100px 0 90px 0;
+    margin: 40px 0 40px 0;
   }
 
   .main-section {
