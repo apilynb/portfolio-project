@@ -74,7 +74,7 @@ h6 {
   background-color: var(--hero-background);
   text-align: center;
   padding: 100px 40px;
-  height: 700px;
+  height: 750px;
 }
 
 .hero a {
@@ -207,7 +207,7 @@ h6 {
 }
 
 .email {
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   color: black;
 
@@ -300,9 +300,7 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  .footer-link {
-    margin: 10px 0 50px 0;
-  }
+ 
 
   .footer .heading {
     font-size: 40px;
