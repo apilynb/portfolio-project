@@ -284,6 +284,17 @@ h6 {
   border-radius: 10px;
 }
 
+.sections .weather {
+  text-decoration: none;
+  color: #212529;
+}
+
+.weather-title:hover {
+font-size: 27px;
+color: var(--branding-color);
+transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 992px) {
   .footer-link {
     margin: 40px 0 40px 0;
