@@ -103,8 +103,12 @@ h6 {
   margin-top: 48px;
 }
 
+.sections {
+  margin-bottom: 100px;
+}
+
 .sections .word-section {
-  padding: 90px 40px;
+  padding: 40px 40px;
 }
 
 .word-section p {
