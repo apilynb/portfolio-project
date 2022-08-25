@@ -30,15 +30,14 @@ h6 {
 
 .navbar {
   background-color: #f4f7f7 !important;
+  height: 50px;
 }
 
 .home-nav-bar {
   position: fixed;
   margin-top: 0;
   width: 100%;
-  height: 50px;
   background-color: var(--hero-background) !important;
-
 }
 
 .nav-item {
