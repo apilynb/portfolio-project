@@ -30,16 +30,22 @@ h6 {
 
 .navbar {
   background-color: #f4f7f7 !important;
-  height: 50px;
+  height: 70px;
+}
+
+.navbar-collapse {
+  background-color: #f4f7f7;
 }
 
 .home-nav-bar {
-  position: fixed;
   margin-top: 0;
   width: 100%;
   background-color: var(--hero-background) !important;
 }
 
+.home-navbar-collapse{
+  background-color: var(--hero-background)
+}
 .nav-item {
   font-size: 15px;
 }
