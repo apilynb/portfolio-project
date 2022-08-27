@@ -80,6 +80,32 @@
     <div class="container contact">
       <h1 class="heading text-center mt-5">Lets Connect!</h1>
       <br />
+      <div class="row">
+        <div class="col-lg">
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="mb-3">
+              <label class="form-label">Your Name: </label>
+              <input type="text" name="name" class="form-control"  placeholder="Johhny Appleseed"/>
+            </div>
+            <div>
+              <label class="form-label">Your Email:</label>
+              <input type="email" name="email" type="text" class="form-control" placeholder="user@mydomain.com"> 
+            </div>
+            <div>
+              <label class="form-label">Subject: </label>
+              <input type="email" name="email" type="text" class="form-control" >
+            </div>
+            <div>
+              <label>Message:</label>
+              <textarea name="message" class="form-control"></textarea>
+            </div>
+                <br>
+              <div>
+                <button type="submit" class="btn btn-dark">Send</button>
+              </div>
+          </form>
+        </div>
+        <div class="col-lg"> 
       <h3><i class="fa-solid fa-envelope"></i> Email</h3>
       <p>
         <a
@@ -109,6 +135,7 @@
           @apilynb
         </a>
       </p>
+      </div>
     </div>
 
     <p class="text-center my-tag">
