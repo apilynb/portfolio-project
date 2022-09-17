@@ -112,6 +112,10 @@ h6 {
   margin-bottom: 100px;
 }
 
+.projects-sections {
+  margin-bottom: 40px !important;
+}
+
 .sections .word-section {
   padding: 30px 40px;
 }
@@ -294,7 +298,7 @@ h6 {
   border-radius: 10px;
 }
 
-.projects .weather {
+.projects .react-weather-img {
  padding-bottom: 13px;
  background-color: var(--hero-background);
 }
@@ -303,12 +307,12 @@ h6 {
   opacity: 0.75;
 }
 
-.sections .weather {
+.sections .project-link {
   text-decoration: none;
   color: #212529;
 }
 
-.weather-title:hover {
+.project-title:hover {
 font-size: 27px;
 color: var(--branding-color);
 transition: all 100ms ease-in-out;
