@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg bg-light home-nav-bar">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand" >
+        <Link to="/" className="navbar-brand" rel="noopener">
           <img src={ABLogo} alt="Apilyn Bonny Logo" className="logo" />
         </Link>
         <button
@@ -30,6 +30,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 to="/"
+                rel="noopener"
                 className="nav-link active"
                 aria-current="page"
                 title="Homepage"
@@ -40,6 +41,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 to="/about"
+                rel="noopener"
                 className="nav-link"
                 title="About Apilyn Bonny Page"
               >
@@ -49,6 +51,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 to="/projects"
+                rel="noopener"
                 className="nav-link"
                 title="Apilyn Bonny's Work"
               >
@@ -59,6 +62,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 to="/contact"
+                rel="noopener"
                 className="nav-link"
                 title=" Ways to Contact Apilyn Bonny"
               >
