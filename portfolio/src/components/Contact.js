@@ -73,6 +73,7 @@ export default function Contact() {
               <a
                 href="https://www.linkedin.com/in/apilyn-bonny"
                 target="_blank"
+                rel="noreferrer"
                 title="Go to Apilyn Bonny's LinkedIn Profile"
               >
                 @Apilyn Bonny
@@ -85,6 +86,7 @@ export default function Contact() {
               <a
                 href="https://github.com/apilynb"
                 target="_blank"
+                rel="noreferrer"
                 title="Go to Apilyn Bonny's GitHub Profile"
               >
                 @apilynb

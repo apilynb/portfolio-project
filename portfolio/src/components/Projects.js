@@ -22,6 +22,7 @@ export default function Projects() {
                 href="https://cheery-sprinkles-19de4d.netlify.app"
                 alt="React Weather App Project Preview"
                 target="_blank"
+                rel="noreferrer"
                 className="project-link"
               >
                 <img
@@ -41,6 +42,7 @@ export default function Projects() {
                 href="https://soft-dolphin-dac899.netlify.app"
                 alt="React Dictionary App Project Preview"
                 target="_blank"
+                rel="noreferrer"
                 className="project-link"
               >
                 <img
